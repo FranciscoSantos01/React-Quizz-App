@@ -1,0 +1,5 @@
+export * from './Star'
+export * from './Player'
+export * from './Game'
+export * from './Footer'
+export * from './Timer'

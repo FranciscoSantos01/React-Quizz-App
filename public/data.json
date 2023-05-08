@@ -1,0 +1,334 @@
+ [
+      {
+        "id": 1,
+        "question": "What is React.js and what is it used for?",
+        "options": [
+          " A front-end library for building user interfaces",
+          " A back-end framework for building APIs",
+          " A database management system",
+          " A server-side rendering engine"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 2,
+        "question": "What is the difference between props and state in React.js?",
+        "options": [
+          " Props are used to pass data from parent to child components, while state is used to manage data within a component",
+          " Props and state are the same thing in React.js",
+          " State is used to pass data from parent to child components, while props are used to manage data within a component",
+          " Props and state are both used to manage data within a component"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 3,
+        "question": "What is JSX and how is it used in React.js?",
+        "options": [
+          " JSX is a programming language used to write React components",
+          " JSX is a markup language used to write React components",
+          " JSX is a database management system",
+          " JSX is a server-side rendering engine"
+        ],
+        "answer": 1
+      },
+      {
+        "id": 4,
+        "question": "What is the virtual DOM in React.js and why is it important?",
+        "options": [
+          " The virtual DOM is a backup version of the actual DOM in case it becomes corrupted",
+          " The virtual DOM is a way for React to keep track of changes to the actual DOM and update it efficiently",
+          " The virtual DOM is a database management system",
+          " The virtual DOM is a server-side rendering engine"
+        ],
+        "answer": 1
+      },
+      {
+        "id": 5,
+        "question": "What is a React component and how is it different from an HTML element?",
+        "options": [
+          " A React component is a building block of a React application, while an HTML element is a building block of an HTML document",
+          " A React component is a building block of an HTML document, while an HTML element is a building block of a React application",
+          " A React component and an HTML element are the same thing in React.js",
+          " A React component is used for back-end development, while an HTML element is used for front-end development"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 6,
+        "question": "What is the role of ReactDOM in React.js?",
+        "options": [
+          " ReactDOM is responsible for rendering React components to the actual DOM",
+          " ReactDOM is responsible for rendering React components to the virtual DOM",
+          " ReactDOM is a database management system",
+          " ReactDOM is a server-side rendering engine"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 7,
+        "question": "What is the difference between class components and functional components in React.js?",
+        "options": [
+          " Class components are more efficient than functional components",
+          " Class components are used for back-end development, while functional components are used for front-end development",
+          " Class components are stateful and have access to lifecycle methods, while functional components are stateless and do not have access to lifecycle methods",
+          " Class components and functional components are the same thing in React.js"
+        ],
+        "answer": 2
+      },
+      {
+        "id": 8,
+        "question": "What is the concept of stateful and stateless components in React.js?",
+        "options": [
+          " Stateful components are components that have state, while stateless components are components that do not have state",
+          " Stateful components are components that have access to lifecycle methods, while stateless components do not have access to lifecycle methods",
+          " Stateful components and stateless components are the same thing in React.js",
+          " Stateful components are used for back-end development, while stateless components are used for front-end development"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 9,
+        "question": "What are React lifecycle methods and how are they used?",
+        "options": [
+          " React lifecycle methods are methods that are called when a component is created, updated, or destroyed, and they can be used to perform certain actions at different stages of a component's life",
+          " React lifecycle methods are methods that are only called when a component is destroyed",
+          " React lifecycle methods are methods that are only called when a component is created",
+          " React lifecycle methods are methods that are only called when a component is updated"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 10,
+        "question": "What is the role of the 'key' prop in React and why is it important?",
+        "options": [
+          " The 'key' prop is used to specify the position of a component in the virtual DOM",
+          " The 'key' prop is used to identify which components need to be updated in the virtual DOM when there are changes",
+          " The 'key' prop is used to specify the value of a component's state",
+          " The 'key' prop is not important in React.js"
+        ],
+        "answer": 1
+      },
+      {
+        "id": 11,
+        "question": "What is the difference between props and state in React.js?",
+        "options": [
+          " Props are used to pass data between components, while state is used to manage data within a component",
+          " Props and state are the same thing in React.js",
+          " Props are used to manage data within a component, while state is used to pass data between components",
+          " Props and state are both used to manage data within a component"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 12,
+        "question": "What is the difference between controlled and uncontrolled components in React.js?",
+        "options": [
+          " Controlled components are components that have state, while uncontrolled components are components that do not have state",
+          " Controlled components are components that are rendered by React, while uncontrolled components are rendered by the browser",
+          " Controlled components are components that have their values controlled by React, while uncontrolled components have their values controlled by the user",
+          " Controlled components and uncontrolled components are the same thing in React.js"
+        ],
+        "answer": 2
+      },
+      {
+        "id": 13,
+        "question": "What is React Router and how is it used?",
+        "options": [
+          " React Router is a library that provides client-side routing in React.js applications, allowing for single-page applications with multiple views",
+          " React Router is a database management system",
+          " React Router is a library that provides server-side rendering in React.js applications",
+          " React Router is a library that provides styling for React.js components"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 14,
+        "question": "What is the role of Redux in React.js and how is it used?",
+        "options": [
+          " Redux is a library that provides client-side routing in React.js applications",
+          " Redux is a library that provides server-side rendering in React.js applications",
+          " Redux is a library that provides state management for React.js applications, allowing for a centralized store for all data",
+          " Redux is a library that provides styling for React.js components"
+        ],
+        "answer": 2
+      },
+      {
+        "id": 15,
+        "question": "What is the concept of higher-order components in React.js?",
+        "options": [
+          " Higher-order components are components that are rendered at a higher level in the component tree",
+          " Higher-order components are components that take other components as input and return a new component with enhanced functionality",
+          " Higher-order components are components that are used for back-end development in React.js",
+          " Higher-order components are components that are used for front-end development in React.js"
+        ],
+        "answer": 1
+      },
+      {
+        "id": 16,
+        "question": "What is the difference between React.js and React Native?",
+        "options": [
+          " React.js is used for web development, while React Native is used for mobile app development",
+          " React.js and React Native are the same thing",
+          " React.js is used for mobile app development, while React Native is used for web development",
+          " React.js and React Native are used for back-end development in React applications"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 17,
+        "question": "What is the role of the virtual DOM in React.js?",
+        "options": [
+          " The virtual DOM is used to improve the performance of React.js applications by minimizing DOM manipulations",
+          " The virtual DOM is used to add styling to React.js components",
+          " The virtual DOM is used to manage state in React.js applications",
+          " The virtual DOM is not used in React.js"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 18,
+        "question": "What are React hooks and how are they used?",
+        "options": [
+          " React hooks are functions that allow you to use state and other React features without writing a class",
+          " React hooks are used for server-side rendering in React.js applications",
+          " React hooks are used for back-end development in React.js",
+          " React hooks are used for front-end development in React.js"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 19,
+        "question": "What is JSX in React.js?",
+        "options": [
+          " JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files",
+          " JSX is a database management system",
+          " JSX is a library that provides client-side routing in React.js applications",
+          " JSX is a library that provides server-side rendering in React.js applications"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 20,
+        "question": "What is the difference between useEffect and useLayoutEffect in React.js?",
+        "options": [
+          " useEffect and useLayoutEffect are the same thing",
+          " useEffect is used for server-side rendering in React.js applications, while useLayoutEffect is used for client-side rendering",
+          " useEffect is asynchronous and does not block the rendering process, while useLayoutEffect is synchronous and blocks the rendering process",
+          " useEffect is used for back-end development in React.js, while useLayoutEffect is used for front-end development"
+        ],
+        "answer": 2
+      },
+      {
+        "id": 21,
+        "question": "What is the purpose of React Fiber and how does it improve performance?",
+        "options": [
+          " React Fiber is a database management system that stores and manages data for React.js applications",
+          " React Fiber is a state management library for React.js applications",
+          " React Fiber is a server-side rendering library for React.js applications",
+          " React Fiber is a new rendering engine in React.js that improves performance by optimizing the rendering process"
+        ],
+        "answer": 3
+      },
+      {
+        "id": 22,
+        "question": "What is the difference between controlled and uncontrolled components in React.js?",
+        "options": [
+          "A. Controlled components are components that are managed by React.js, while uncontrolled components are managed by the browser",
+          "B. Controlled components are components that are managed by the browser, while uncontrolled components are managed by React.js",
+          "C. Controlled components are components that have their state controlled by React.js, while uncontrolled components have their state managed by the browser",
+          "D. Controlled components are components that have their state managed by the browser, while uncontrolled components have their state controlled by React.js"
+        ],
+        "answer": 2
+      },
+      {
+        "id": 23,
+        "question": "What is the purpose of the useMemo hook in React.js?",
+        "options": [
+          " useMemo is used to memoize expensive calculations in React.js applications, improving performance",
+          " useMemo is used to manage state in React.js applications",
+          " useMemo is used to add styling to React.js components",
+          " useMemo is not a built-in hook in React.js"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 24,
+        "question": "What is the difference between shallow rendering and full rendering in React.js?",
+        "options": [
+          " Shallow rendering is used for server-side rendering in React.js applications, while full rendering is used for client-side rendering",
+          " Shallow rendering only renders a component and not its children, while full rendering renders the entire component tree",
+          " Shallow rendering is synchronous and blocks the rendering process, while full rendering is asynchronous and does not block the rendering process",
+          " Shallow rendering is not a feature in React.js"
+        ],
+        "answer": 1
+      },
+      {
+        "id": 25,
+        "question": "What is server-side rendering and how is it used in React.js?",
+        "options": [
+          "A. Server-side rendering is a technique that allows the initial rendering of a React.js application to be done on the server, improving performance and search engine optimization",
+          "B. Server-side rendering is a technique that allows React.js components to be rendered on a server separate from the main application server",
+          "C. Server-side rendering is a technique that allows React.js components to be rendered on a separate thread, improving performance",
+          "D. Server-side rendering is not used in React.js"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 26,
+        "question": "What is the purpose of the useLayoutEffect hook in React.js, and how is it different from useEffect?",
+        "options": [
+          " useLayoutEffect is used to synchronize state updates with the browser layout, and it is synchronous and blocking, while useEffect is asynchronous and non-blocking",
+          " useLayoutEffect is used to manage state updates in React.js applications, while useEffect is used for side effects like fetching data",
+          " useLayoutEffect is not a built-in hook in React.js",
+          " useLayoutEffect is used to perform side effects that require DOM nodes, and it is synchronous and blocking, while useEffect is asynchronous and non-blocking"
+        ],
+        "answer": 3
+      },
+      {
+        "id": 27,
+        "question": "What is the difference between React.js and React Native?",
+        "options": [
+          "A. React.js is a library for building user interfaces on the web, while React Native is a framework for building mobile applications",
+          "B. React.js is a framework for building mobile applications, while React Native is a library for building user interfaces on the web",
+          "C. React.js and React Native are the same thing",
+          "D. React.js and React Native are both libraries for building user interfaces on the web"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 28,
+        "question": "What is the purpose of the Context API in React.js, and how is it used?",
+        "options": [
+          " The Context API is used for global state management in React.js applications, and it is accessed using the useContext hook",
+          " The Context API is used for routing in React.js applications, and it is accessed using the useHistory hook",
+          " The Context API is not a built-in feature of React.js",
+          " The Context API is used for event handling in React.js applications, and it is accessed using the useEvent hook"
+        ],
+        "answer": 0
+      },
+      {
+        "id": 29,
+        "question": "What is the purpose of the useRef hook in React.js, and how is it used?",
+        "options": [
+          " useRef is used to manage state in React.js applications",
+          " useRef is not a built-in hook in React.js",
+          " useRef is used to create references to DOM nodes or React components in React.js applications",
+          " useRef is used to perform side effects in React.js applications"
+        ],
+        "answer": 2
+      },
+      {
+        "id": 30,
+        "question": "What is the purpose of the useReducer hook in React.js, and how is it used?",
+        "options": [
+          " useReducer is used to manage side effects in React.js applications",
+          " useReducer is not a built-in hook in React.js",
+          " useReducer is used to manage global state in React.js applications",
+          " useReducer is used to manage complex state in React.js applications, and it is similar to Redux"
+        ],
+        "answer": 3
+      }
+    ]
+  
+  
