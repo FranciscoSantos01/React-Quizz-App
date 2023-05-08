@@ -2,7 +2,7 @@ import {create} from 'zustand'
 import {persist} from 'zustand/middleware'
 import confetti from 'canvas-confetti'
 
-
+const API_URL = import.meta.env.PROD ? 'https://react-quizz-app-plum.vercel.app' : 'http://localhost:5173'
 export const useQuestionStore = create(persist((set,get)=>({
     player: "",
     players: [],
@@ -10,7 +10,7 @@ export const useQuestionStore = create(persist((set,get)=>({
     currentQuestions: 0,
 
     fetchQuestions: async(limit)=>{
-        const res = await fetch("http://localhost:5173/data.json");
+        const res = await fetch(`${API_URL}/data.json`);
         const json = await res.json()
         const questions = json.sort(()=> Math.random() - 0.5).slice(0,limit);
         set({questions})
